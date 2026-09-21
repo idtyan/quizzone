@@ -1,0 +1,1 @@
+window.QUIZIK={url:"https://zuwwvszsgnpteyrvmafs.supabase.co",key:"sb_publishable_G1w0wj1m-HSRGAU2m5IbjA_zmDqYLl6"};
