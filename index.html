@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Развлекательные тесты и викторины: кино, музыка, Казахстан, игры и многое другое.">
+  <title>QuizZone — тесты и викторины</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="logo" href="index.html">Quiz<span>Zone</span></a>
+  <nav>
+    <a href="#categories">Категории</a>
+    <a href="#popular">Популярное</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div>
+      <p class="eyebrow">ТЕСТ ДНЯ</p>
+      <h1>Проверь себя за 2 минуты</h1>
+      <p class="hero-text">Короткие тесты, неожиданные результаты и викторины, которыми хочется поделиться.</p>
+      <a class="button" href="quiz.html?id=marvel">Начать тест</a>
+    </div>
+    <div class="hero-card">
+      <div class="emoji">🧠</div>
+      <strong>Какой ты герой?</strong>
+      <span>10 вопросов · 2 минуты</span>
+    </div>
+  </section>
+
+  <section id="categories" class="section">
+    <div class="section-head"><h2>Категории</h2></div>
+    <div class="categories">
+      <a href="#popular">🎬 Кино</a>
+      <a href="#popular">🎵 Музыка</a>
+      <a href="#popular">🇰🇿 Казахстан</a>
+      <a href="#popular">🎮 Игры</a>
+      <a href="#popular">🧠 Логика</a>
+      <a href="#popular">😂 Юмор</a>
+    </div>
+  </section>
+
+  <section id="popular" class="section">
+    <div class="section-head"><h2>Популярные тесты</h2></div>
+    <div id="quiz-grid" class="quiz-grid"></div>
+  </section>
+</main>
+
+<footer><span>QuizZone</span> · Развлекательные тесты</footer>
+<script src="app.js"></script>
+</body>
+</html>
